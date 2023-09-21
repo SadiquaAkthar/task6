@@ -6,4 +6,4 @@ digitList=[]
 for i in digit:
     digitList.append(i)
 #sum of the first digit and the last digit converting to int
-print(int(digitList[0])+int(digitList[(len(digitList)-1)]))
+print(int(digitList[0])+int(digitList[-1]))
